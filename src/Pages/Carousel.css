@@ -1,0 +1,59 @@
+p{
+    text-align: center;
+}
+#main-curousel{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 400px;
+    align-items: center;
+
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: scroll;
+    display:flex;
+    white-space: nowrap;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.slider::-webkit-scrollbar{
+    display: none;
+}
+.slider-icon-left{
+    float: left;
+    cursor: pointer;
+}
+.slide-icon-right{
+    float: right;
+    cursor: pointer;
+}
+.slider-card{
+    /* width: 600px; 
+    height: 400px; */
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.slider-card-image{
+    width: 200px;
+    height: 350px;
+    background-size: cover;
+
+}
+
+.slider-card-title{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: -4px;
+
+}
+.slider-card-description{
+    font-size: 10px;
+    text-align: left;
+}

@@ -1,0 +1,14 @@
+.card{
+    width: 200px;
+    color: #333;
+    font-family: arial;
+    margin: 5px;
+}
+.card h1{
+    font-size: 14px;
+}
+.card p{
+    font-size: 10px;
+    text-align: start;
+    margin-top: -10px;
+}
